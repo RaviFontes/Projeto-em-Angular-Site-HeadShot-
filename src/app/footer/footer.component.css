@@ -1,0 +1,148 @@
+/*-- Rodapé --*/
+
+.rodape {
+    text-decoration: none;
+    position:initial;
+    background:rgba(0, 0, 0, 0.5);
+    padding-bottom: 1em;
+    width: 100%;
+    height:auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer {
+    display: grid;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+.contato{
+    display: grid;
+}
+
+.titulo-contato a {
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    color:rgba(55, 170, 159, 0.616);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.300em;
+    cursor: pointer;
+}
+
+.titulo-contato a:hover {
+    color: rgba(200, 241, 237, 0.781);
+    cursor: pointer;
+}
+
+
+.lista-contato {
+    display: flex;
+    justify-content: space-between;
+}
+.lista-contato ul {
+    list-style: none;
+}
+
+.lista-contato li {
+    margin: 7px;
+}
+
+.link-footer {
+    font-size: 8px;
+    list-style: none;
+    text-decoration: none;
+    padding-top:0.5em;
+    color: #E8E7E7;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.400em;
+}
+
+.link-footer:hover {
+    color: var(--verde-color);
+    cursor: pointer;
+}
+
+.sessao2-footer {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 0.5em;
+}
+.comunicacao {
+    display: grid;
+}
+.titulo-comunicacao {
+    display: grid;
+}
+.titulo-comunicacao a{
+    margin-top: 1em;
+    text-decoration: none;
+    font-size: 12px;
+    color:var(--verde-color);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.350em;
+    cursor: pointer;
+}
+
+.titulo-comunicacao a:hover {
+    color: var(--branco-color);
+    cursor: pointer;
+}
+.lista-comunicacao {
+    display: flex;
+}
+.lista-comunicacao ul {
+    display: grid;
+    list-style: none;
+}
+
+.lista-comunicacao li {
+    display: flex;
+    
+}
+
+.text-comunicacoes {
+    text-align:justify;
+    font-size: 9px;
+    list-style: none;
+    text-decoration: none;
+    color: white
+    
+}
+
+.rodape2 {
+    display: block;
+    width: 100%;
+    margin-top: -1em;
+}
+.barra-footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: -1em;
+    background-color: rgba(200, 241, 237, 0.781);
+}
+
+.imagens-footer {
+    display: flex;
+}
+.imgredes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgredes img {
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
